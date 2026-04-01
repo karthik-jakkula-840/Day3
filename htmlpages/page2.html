@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Adoption Form</title>
+
+    <!-- Link External CSS -->
+    <link rel="stylesheet" href="/css/adoption.css">
+</head>
+
+<body>
+
+<div class="container">
+    <h2>🐶 Animal Adoption Form</h2>
+
+    <form action="#" method="POST">
+
+        <label>Full Name</label>
+        <input type="text" name="name" required>
+
+        <label>Email</label>
+        <input type="email" name="email" required>
+
+        <label>Phone Number</label>
+        <input type="tel" name="phone" required>
+
+        <label>Address</label>
+        <textarea name="address" required></textarea>
+
+        <label>Select Animal</label>
+        <select name="animal" required>
+            <option value="">--Choose--</option>
+            <option>Dog</option>
+            <option>Cat</option>
+            <option>Rabbit</option>
+            <option>Bird</option>
+        </select>
+
+        <label>Why do you want to adopt?</label>
+        <textarea name="reason" required></textarea>
+
+        <label>Do you have experience with pets?</label>
+        <select name="experience">
+            <option>Yes</option>
+            <option>No</option>
+        </select>
+
+        <button type="submit">Submit Application</button>
+    </form>
+</div>
+<button id="home"><a href="../index.html" ali>Go to Homepage</a></button>
+
+</body>
+</html>
